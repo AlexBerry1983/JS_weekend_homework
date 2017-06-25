@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: tomato;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+}
+
+#select {
+  align-self: center;
+}
