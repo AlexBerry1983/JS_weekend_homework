@@ -3,17 +3,22 @@
   <head>
     <title>Mountain App</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script src='index.js'></script>
+    <script src='mapWrapper.js'> </script>
   </head>
   <body>
     <h1>The big old hills of Scotland</h1>
-      <input type="text" name="search"></input>
-      <button type= "button">This is a button</button>
-    <div id='mountain-list'>
-    </div>
-      <ul id="mountain-details">
-        <li id="mountain-name">Name:</li>
-        <li id="mountain-name-meaning">Meaning:</li>
-      </ul>
+      <div id="search">
+      </div>
+      <div id="mountain-list">
+        <ul id="mountain-details">
+          <li id="mountain-name"></li>
+          <li id="mountain-name-meaning"></li>
+          <li id="mountain-region"></li>
+        </ul>
+      </div>
+      <div id='main-map'>
+      </div>
   </body>
 </html>

@@ -3,7 +3,7 @@ h1 {
 }
 
 body {
-  background-color: tomato;
+  text-align: center;
 }
 
 li {
@@ -13,4 +13,18 @@ li {
 
 #select {
   align-self: center;
+}
+
+button {
+  margin-left: 5em;
+}
+
+#search {
+  align-self: center;
+}
+
+#main-map {
+  height:500px;
+  width:500px;
+  margin: auto;
 }
